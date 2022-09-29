@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --accent-color: #2196F3;
+    --primary-color: #212121; 
+    --secondary-color: #757575; 
+    --secondary-font: 'Raleway', normal; 
+  }
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 1170px;
+    padding:  0px 15px;
+    margin: 0 auto;
+}
+
+.logo-text-url1 {
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: var(--secondary-font);
+}
+
+.logo-text-url2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: var(--secondary-font);
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    
+}
+
+.menu-contacts {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--secondary-color);
+    padding-left: 93px; 
+}
+
+.item a {
+    color: var(--primary-color);
+    margin-right: 50px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.item:last-of-type {
+    margin-right: 0;
+}
+
+.item:hover a {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.contact-mail {
+    color: var(--secondary-color);
+    margin-right: 50px;
+}
+
+.contact-mail a {
+    color: var(--secondary-color);
+}
+
+.contact-mail:hover a {
+    color: var(--accent-color);
+}
+
+.contact-tel a {
+    color: var(--secondary-color);
+}
+
+.contact-tel:hover a {
+    color: var(--accent-color);
+}
+
+.order-container {
+    background: #2F303A;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.webstudio-title {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.order-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    background-color: var(--accent-color);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 10px 32px 10px 32px;
+}
+
+.ul {
+    padding-inline-start: 0px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.features-list-title {
+    font-size: 14px;
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    width: 270px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.features-list-descr {
+    line-height: 1.71;
+    color: var(--secondary-color);
+    width: 270px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.studio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    margin-top: 94px;
+}
+
+.studio-imgs {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.team {
+    margin-top: 94px;
+    background: #F5F4FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
+.team-card {
+    margin-right: 30px;
+    margin-bottom: 94px;
+}
+
+.team-card:last-of-type {
+    margin-right: 0;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    margin-top: 188px;
+    
+}
+
+.team-card-name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.team-card-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-left: 215px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-text-furl1 {
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: var(--secondary-font);
+}
+
+.logo-text-furl2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: var(--secondary-font);
+}
+
+.location {
+    line-height: 1.71;
+    color: #fff;
+}
+
+.cont{
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    width: 575px;
+    margin: 94px 512px 30px 512px;
+}
+
+.filter {
+    font-family: 'Roboto';
+    font-style: normal;
+    border: none;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #212121;
+    padding: 6px 22px;
+}
+
+.filter.active {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    border: none;
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.projects {
+    margin-top: 94px;
+    margin-bottom: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-container {
+    max-width: 1170px;
+    display: flex;                       
+    flex-wrap: wrap;                
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
+.project-card {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;  
+    margin-bottom: 30px;
+}
+
+.project-card-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 20px 24px 2px 24px;
+}
+
+.project-card-filter {
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: left;
+    color: var(--secondary-color);
+    margin: 4px 24px 20px 24px;
+}

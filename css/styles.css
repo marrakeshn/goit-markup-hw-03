@@ -35,6 +35,8 @@ body {
 header {
     background: #FFFFFF;
     border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 header .logo, footer .logo {
@@ -101,7 +103,6 @@ header .logo span {
 
 .contact-mail {
     color: var(--secondary-color);
-    /* margin-right: 50px; */
 }
 
 .contact-mail a {
@@ -129,6 +130,7 @@ header .logo span {
 .webstudio-title {
     color: #FFFFFF;
     text-transform: uppercase;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -334,28 +336,29 @@ footer .logo span {
     width: 100%;
 }
 
+.project-description {
+    padding: 20px 24px;
+}
+
 .project-card-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-color);
-    text-align: left;
-    margin: 20px 24px 2px 24px;
+    margin-bottom: 4px;
 }
 
 .project-card-filter {
     font-size: 16px;
     line-height: 1.88;
-    text-align: left;
+    letter-spacing: 0,03em;
     color: var(--secondary-color);
-    margin: 4px 24px 20px 24px;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    
     
 }
